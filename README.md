@@ -1,43 +1,105 @@
-# synapse
-*Description:* Project 3 repo, temporarily named synapse
+# **s y n a p s e**
 University of Arizona Coding Bootcamp
+> Fall 2018 Project 3 repo
 
-### Group Project Members
-#### Keith Downey / Derek Maloney / Alex Lialios / Miguel Peralta
+### **Group Project Members**
+Keith Downey / Derek Maloney / Alex Lialios / Miguel Peralta
+<a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
+
+<a href="graphs/contributors"><img src="https://opencollective.com/spacevim/contributors.svg?width=890&button=true" /></a>
+
+<a href="graphs/contributors"><img src="https://opencollective.com/synapseclub/contributors.svg?width=890&button=false" /></a>
+
+https://opencollective.com/synapseclub/members/all.json?limit=10&offset=0
+
+## Stuff we are trying
+### **react-table**
+```
+yarn add react-table
+```
+> https://react-table.js.org
 
 
-## About this Project
+## Getting Started
 
-> The front end allows us to view the current information inside our database. It also allows us to add new data into it, delete a present data and update an already existing one. (CRUD)
-> We will use **create-react-app** to bootstrap our front end, which means that we will not have to worry about setting up Webpack or Babel (as create-react-app sorts this all out by default).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Starting the app locally
+### Prerequisites
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+What things you need to install the software and how to install them
 
 ```
-yarn install
+Give examples
 ```
 
-This should install node modules within the server and the client folder.
+### Installing
 
-After both installations complete, run the following command in your terminal:
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
 
 ```
-yarn start
+Give the example
 ```
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+And repeat
 
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
-
-
----
-```javascript
-const project3 = "synapse";
-alert(project3);
+```
+until finished
 ```
 
-<img src="https://d1w9csuen3k837.cloudfront.net/Pictures/2000x1125/4/4/0/137440_Synapse_illustration-SPL_Hero2.jpg" />
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
